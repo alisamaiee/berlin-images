@@ -1,5 +1,5 @@
-# berlin-images
+# berlin-images (retired)
 
-Photos for the Berlin app. Each file sits at `places/<place_id>/<n>.jpg`, 0 to 2 per place.
+This repository is retired. Since step 22 of the Berlin app (31 October 2026), the app's photos live in the Berlin repository under `hosting/photos/<place-id>/<n>.jpg` and are served by Firebase Hosting at `https://berlin-54668.web.app/photos/<place-id>/<n>.jpg`. Every photo there is listed in `hosting/photos/MANIFEST.json` with its source and licence; `docs/curator-guide.md` in the Berlin repository says how to add one.
 
-Only photos taken by the Berlin team, or published with the written permission of the photographer, belong here. Nothing is copied from Google, Foursquare, Yelp, Tripadvisor or any other service.
+The flat-colour placeholders under `places/` stay here only so that builds from before step 22 still show something. Add nothing new here.
